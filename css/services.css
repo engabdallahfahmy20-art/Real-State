@@ -1,0 +1,164 @@
+header a{
+    text-decoration: none;
+}
+header {
+  position: relative;
+  height: 100vh;
+  background-image: url(../images/hero_bg_1.jpg) !important;
+  background-size: cover;
+  background-position: center;
+}
+.container{
+    z-index: 2;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.content{
+    z-index: 2;
+}
+nav {
+  background-color: rgb(2, 90, 74);
+}
+.spancon{
+color: gray;
+}
+.spanconinfo{
+  background-color:  rgb(5, 5, 101);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+.btn{
+ width: 150px;
+ background-color: rgb(2, 90, 74);
+ border-radius: 25px;
+}
+.clo{
+  color: rgb(5, 5, 101);
+}
+.ca8rds{
+ min-height: 110vh;
+}
+.card{
+  height: 320px;
+}
+.card-link{
+  text-decoration: none;
+  color: rgb(2, 90, 74);
+  font-weight: bold;
+  position: relative;
+}
+.card-link::before{
+content: " ";
+width: 10px;
+height: 3px;
+background-color:rgb(2, 90, 74) ;
+position: absolute;
+top: 100%;
+left: 0;
+transition:width 0.5s ease-in-out;
+}
+.card-link:hover::before{
+  width: 100%;
+}
+.coimg {
+  width: 90px;
+  height: 90px;
+}
+.sm {
+  width: 38px;
+  height: 38px;
+  background-color: #002b49; 
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+.smbg1:hover{
+background-color: rgb(9, 177, 238);
+}
+.smbg2:hover{
+  background-color:rgb(13, 79, 246) ;
+}
+.smbg3:hover{
+  background-color:rgb(10, 112, 195) ;
+}
+.smbg4:hover{
+ background-color:rgb(116, 7, 218);
+}
+.sm:hover {
+  color: white;
+  transform: translateY(-10px);
+}
+.nav-link:hover{
+color: white !important;
+}
+.bbdot {
+  width: 8px !important;
+  height: 8px !important;
+  background-color: #002b49 !important;
+  opacity: 0.3;
+  margin: 0 4px !important;
+  border: none !important;
+}
+.codots{
+  position: relative;
+}
+.bbdot.active {
+  opacity: 1;
+}
+.foooterhead{
+  background-color:rgb(247, 242, 242);
+  min-height: 80vh;
+}
+.foooterhead h6{
+  color: rgba(4, 4, 124);
+}
+.foooterlink p , a{
+color: gray;
+}
+.foooterlink a:hover{
+  color: black;
+}
+.bp a{
+background-color: rgba(75, 73, 73, 0.504);
+}
+.btn1{
+  transition: 0.2s;
+  background-color: rgb(116, 111, 111);
+  border: none ;
+}
+.btn1:hover{
+  transform: translateY(-10px );
+
+  color:white;
+}
+.b1:hover{
+  background-color:rgb(116, 7, 218);
+}
+.b2:hover{
+  background-color: rgb(9, 177, 238);
+}
+.b3:hover{
+  background-color:rgb(13, 79, 246) ;
+}
+.b4:hover{
+ background-color:rgb(10, 112, 195) ;
+}
+.b5:hover{
+  background-color: rgb(129, 204, 15);
+}
+.b6:hover{
+   background-color: rgb(2, 90, 74);
+}

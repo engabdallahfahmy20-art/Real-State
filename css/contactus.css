@@ -1,0 +1,111 @@
+header a {
+  text-decoration: none;
+}
+header {
+  position: relative;
+  height: 100vh;
+  background-image: url(../images/hero_bg_1.jpg) !important;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  z-index: 2;
+}
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.content {
+  z-index: 2;
+}
+nav {
+  background-color: rgb(2, 90, 74);
+}
+.spancon {
+  color: gray;
+}
+.nav-link:hover {
+  color: white !important;
+}
+.spanconinfo {
+  background-color: rgb(5, 5, 101);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+.btn {
+  width: 150px;
+  background-color: rgb(2, 90, 74) !important;
+  border-radius: 25px;
+}
+.clo {
+  color: rgb(5, 5, 101);
+}
+.foooterhead {
+  background-color: rgb(247, 242, 242);
+  min-height: 80vh;
+}
+.foooterhead h6 {
+  color: rgba(4, 4, 124);
+}
+.foooterlink p,
+a {
+  color: gray;
+}
+.foooterlink a:hover {
+  color: black;
+}
+.bp a {
+  background-color: rgba(75, 73, 73, 0.504);
+}
+.btn1 {
+  transition: 0.2s;
+  background-color: rgb(116, 111, 111);
+  border: none;
+}
+.btn1:hover {
+  transform: translateY(-10px);
+
+  color: white;
+}
+.b1:hover {
+  background-color: rgb(116, 7, 218);
+}
+.b2:hover {
+  background-color: rgb(9, 177, 238);
+}
+.b3:hover {
+  background-color: rgb(13, 79, 246);
+}
+.b4:hover {
+  background-color: rgb(10, 112, 195);
+}
+.b5:hover {
+  background-color: rgb(129, 204, 15);
+}
+.b6:hover {
+  background-color: rgb(2, 90, 74);
+}
+.content-form span {
+  display: none;
+}
+.content-form-error span {
+  display: block;
+}
+.content-form input:focus,
+.content-form textarea:focus {
+  border: 2px solid #34b434a1 !important;
+  outline: none !important;
+  box-shadow: 0px 0px 1px 1px #34b434a1 !important;
+}
+.content-form-error input:focus,
+.content-form-error textarea:focus {
+  border: 2px solid #dc3545 !important;
+  outline: none !important;
+  box-shadow: 0px 0px 1px 1px #dc3545 !important;
+}
